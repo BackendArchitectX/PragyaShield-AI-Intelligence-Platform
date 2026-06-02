@@ -1,0 +1,18 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: pragyashield-ai-insurance-api
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
+app:
+  ai:
+    provider: mock
+    pii-redaction: true
+    human-review-threshold: 60

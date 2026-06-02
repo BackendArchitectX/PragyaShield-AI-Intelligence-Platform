@@ -1,0 +1,12 @@
+package com.pragyashield.insurance.domain;
+
+public enum RiskSignalType {
+    DUPLICATE_DOCUMENT_HASH,
+    CLAIM_VELOCITY_SPIKE,
+    PROVIDER_ANOMALY,
+    GEO_MISMATCH,
+    POLICY_TENURE_RISK,
+    HIGH_VALUE_CLAIM,
+    INCOMPLETE_DOCUMENTS,
+    PAYMENT_PATTERN_RISK
+}
